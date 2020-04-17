@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6911AAC622EBF74500812AAC /* ColourView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911AAC622EBF74500812AAC /* Color View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6911AAC922EBF74500812AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6911AACB22EBF74500812AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6911AACE22EBF74500812AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		6911AABD22EBF74500812AAC = {
 			isa = PBXGroup;
 			children = (
-				6911AAC822EBF74500812AAC /* ColourView */,
+				6911AAC822EBF74500812AAC /* ColorView */,
 				6911AAC722EBF74500812AAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		6911AAC722EBF74500812AAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6911AAC622EBF74500812AAC /* ColourView.app */,
+				6911AAC622EBF74500812AAC /* Color View.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6911AAC822EBF74500812AAC /* ColourView */ = {
+		6911AAC822EBF74500812AAC /* ColorView */ = {
 			isa = PBXGroup;
 			children = (
 				6911AAC922EBF74500812AAC /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				6911AAD222EBF74E00812AAC /* LaunchScreen.storyboard */,
 				6911AAD522EBF74E00812AAC /* Info.plist */,
 			);
-			path = ColourView;
+			path = ColorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6911AAC522EBF74500812AAC /* ColourView */ = {
+		6911AAC522EBF74500812AAC /* ColorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6911AAD822EBF74E00812AAC /* Build configuration list for PBXNativeTarget "ColourView" */;
+			buildConfigurationList = 6911AAD822EBF74E00812AAC /* Build configuration list for PBXNativeTarget "ColorView" */;
 			buildPhases = (
 				6911AAC222EBF74500812AAC /* Sources */,
 				6911AAC322EBF74500812AAC /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = ColourView;
+			name = ColorView;
 			productName = ColourView;
-			productReference = 6911AAC622EBF74500812AAC /* ColourView.app */;
+			productReference = 6911AAC622EBF74500812AAC /* Color View.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6911AAC122EBF74500812AAC /* Build configuration list for PBXProject "ColourView" */;
+			buildConfigurationList = 6911AAC122EBF74500812AAC /* Build configuration list for PBXProject "ColorView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6911AAC522EBF74500812AAC /* ColourView */,
+				6911AAC522EBF74500812AAC /* ColorView */,
 			);
 		};
 /* End PBXProject section */
@@ -284,13 +284,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJN9TW8RPS;
-				INFOPLIST_FILE = ColourView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ColorView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.ColourView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Color View";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +302,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJN9TW8RPS;
-				INFOPLIST_FILE = ColourView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ColorView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.ColourView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Color View";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6911AAC122EBF74500812AAC /* Build configuration list for PBXProject "ColourView" */ = {
+		6911AAC122EBF74500812AAC /* Build configuration list for PBXProject "ColorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6911AAD622EBF74E00812AAC /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6911AAD822EBF74E00812AAC /* Build configuration list for PBXNativeTarget "ColourView" */ = {
+		6911AAD822EBF74E00812AAC /* Build configuration list for PBXNativeTarget "ColorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6911AAD922EBF74E00812AAC /* Debug */,

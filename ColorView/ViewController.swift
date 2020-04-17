@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var colourView: UIView!
+    @IBOutlet var colorView: UIView!
     
     @IBOutlet var numberRedLabel: UILabel!
     @IBOutlet var numberGreenLabel: UILabel!
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        colourView.layer.cornerRadius = 20
+        colorView.layer.cornerRadius = 20
         changeColour()
         
         let doneToolBar = UIToolbar()
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     func changeColour() {
-        colourView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
     }
     
     @IBAction func rgbColourChanged(_ sender: Any) {
