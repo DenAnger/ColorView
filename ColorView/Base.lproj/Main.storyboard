@@ -52,22 +52,22 @@
                                             <constraint firstAttribute="width" constant="51" id="qCm-dS-XuG"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="SgK-gW-3XK" userLabel="Number Label Stack View">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="SgK-gW-3XK" userLabel="Value Label Stack View">
                                         <rect key="frame" x="60" y="0.0" width="46" height="117.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7R7-6V-SVq" userLabel="Number Red Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7R7-6V-SVq" userLabel="Value Red Label">
                                                 <rect key="frame" x="0.0" y="0.0" width="46" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34j-Jj-G3e" userLabel="Number Green Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34j-Jj-G3e" userLabel="Value Green Label">
                                                 <rect key="frame" x="0.0" y="48.5" width="46" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pik-2h-ARN" userLabel="Number Blue Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pik-2h-ARN" userLabel="Value Blue Label">
                                                 <rect key="frame" x="0.0" y="97" width="46" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -85,23 +85,20 @@
                                                 <rect key="frame" x="-2" y="0.0" width="103" height="31"/>
                                                 <color key="tintColor" red="0.99550680051813467" green="0.093612556467790306" blue="0.12611281237207048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="rgbColourChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="YnP-m6-lK4"/>
-                                                    <action selector="rgbNumberChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="et1-aM-Fvs"/>
+                                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="et1-aM-Fvs"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HxK-QA-xJe" userLabel="Green Slider">
                                                 <rect key="frame" x="-2" y="44" width="103" height="31"/>
                                                 <color key="tintColor" red="0.095443500819999999" green="1" blue="0.086497409420000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <action selector="rgbColourChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="bTf-xf-o4v"/>
-                                                    <action selector="rgbNumberChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="i9v-1L-bqG"/>
+                                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="i9v-1L-bqG"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gFS-Bd-6ai" userLabel="Blue Slider">
                                                 <rect key="frame" x="-2" y="88" width="103" height="31"/>
                                                 <connections>
-                                                    <action selector="rgbColourChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ylk-vY-LDM"/>
-                                                    <action selector="rgbNumberChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="U05-y8-R9K"/>
+                                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="U05-y8-R9K"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -114,18 +111,27 @@
                                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="tLa-Ow-e5A"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="awZ-L0-hHs" userLabel="Green Text Field">
                                                 <rect key="frame" x="0.0" y="44" width="57" height="34"/>
                                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="iRC-Hq-tw2"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vWl-ol-5BB" userLabel="Blue Text Field">
                                                 <rect key="frame" x="0.0" y="88" width="57" height="34"/>
                                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="POt-Ui-jBX"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -152,11 +158,11 @@
                         <outlet property="colorView" destination="kIc-Hb-JY8" id="xXN-4T-pSC"/>
                         <outlet property="greenSlider" destination="HxK-QA-xJe" id="kYJ-4T-L1f"/>
                         <outlet property="greenTextField" destination="awZ-L0-hHs" id="1fr-GZ-TUa"/>
-                        <outlet property="numberBlueLabel" destination="pik-2h-ARN" id="ghy-Go-SyT"/>
-                        <outlet property="numberGreenLabel" destination="34j-Jj-G3e" id="OkV-YN-HvE"/>
-                        <outlet property="numberRedLabel" destination="7R7-6V-SVq" id="IJr-Z6-3jN"/>
                         <outlet property="redSlider" destination="80s-q6-vbl" id="sW7-VF-EPT"/>
                         <outlet property="redTextField" destination="4fD-Bd-0sO" id="bcG-Hg-mws"/>
+                        <outlet property="valueBlueLabel" destination="pik-2h-ARN" id="ghy-Go-SyT"/>
+                        <outlet property="valueGreenLabel" destination="34j-Jj-G3e" id="OkV-YN-HvE"/>
+                        <outlet property="valueRedLabel" destination="7R7-6V-SVq" id="IJr-Z6-3jN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
