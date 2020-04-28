@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         setColor()
     }
     
-    // MARK: - Values
+    // MARK: - Methods
     private func setColor() {
         colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value),
                                             green: CGFloat(greenSlider.value),
